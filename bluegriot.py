@@ -10,7 +10,7 @@ data = []
 compt = 0
 
 # Nombre de mesures faites
-while compt < 50:  # Par exemple 50 mesures
+while compt < 50:  # 50 mesures
     line = Arduino.readline().decode('utf-8').strip()  # Lecture décodage et enlever les espaces
     if line:  # S'assurer qu'il y a bien des données
         data.append(line)
