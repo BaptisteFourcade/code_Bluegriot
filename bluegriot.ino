@@ -21,7 +21,7 @@ void setup() {
   
   pinMode(3, OUTPUT);//Pin PWM
 
-  //TIMER 2
+  //TIMER 2 : PWM variable à valeur moyenne sinusoidale à 1KHz
   TCCR2A = _BV(COM2B1) | _BV(WGM21) | _BV(WGM20); 
   TCCR2B = _BV(CS21) |_BV(WGM22);
   OCR2A = 99;
