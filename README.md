@@ -7,7 +7,7 @@ Ce code a été réalisé dans le cadre d'un projet visant à déterminer l'imp�
 
 Le code dans ce git s'intéresse à la création d'un signal PWM à valeur sinusoïdale et à l'acquisition de l'ondulation en tension, en courant, et du signal PWM filtré. Ces données sont transmises à un ordinateur grâce à une liaison série et sont ensuite traitées en utilisant Python.
 
-Afin d'obtenir un signal sinusoïdal à 1kHz, la fréquence de la PWM sera de 20kHz. Pour ce faire, on règle le timer 2 en mode fast PWM. Le diagramme temporel du mode fast PWM est disponible ci-dessous.
+Afin d'obtenir un signal sinusoïdal à 1kHz, la fréquence de la PWM est de 20kHz. Pour ce faire, on règle le timer 2 en mode fast PWM. Le diagramme temporel du mode fast PWM est disponible ci-dessous.
 
 ![Circuit](fastpwm.png)
 
